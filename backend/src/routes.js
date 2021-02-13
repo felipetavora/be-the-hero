@@ -8,10 +8,8 @@ const routes = express.Router();
 
 //criando uma session(login) com o id da ong
 routes.post('/sessions', SessionController.create);
-
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
-
 //listando apenas incidentes de uma ong específica
 routes.get('/profile', ProfileController.index);
 routes.get('/incidents', IncidentController.index);
