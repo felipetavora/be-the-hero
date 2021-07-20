@@ -18,5 +18,4 @@ export default function Routes() {
     );
 }
 
-
 //exact: determina que o caminho declarado seja exatamente igual ao path
